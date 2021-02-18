@@ -1,0 +1,21 @@
+{
+    "name": "makini/swagger-sdk",
+    "description": "Makini Swagger SDK for PHP",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.1",
+    "authors": [
+        {
+            "name": "Roman Kinyakin",
+            "email": "roman@makini.io"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Makini\\Swagger\\": "src/"
+        }
+    },
+    "require": {}
+}
