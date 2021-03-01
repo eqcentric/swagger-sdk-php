@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3cd9d791-1b40-4bc6-b551-4e85e1701fe5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ApiException.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HeaderSelector.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/AccountsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/AccountsApi.php" afterDir="false" />
@@ -77,8 +79,10 @@
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/ValueListsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/ValueListsApi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/VoyageReportsApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/VoyageReportsApi.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/WarehousesApi.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Api/WarehousesApi.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/ApiException.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Client.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Configuration.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/HeaderSelector.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/Account.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/Account.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/ActivityGroup.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/ActivityGroup.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/Address.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/Address.php" afterDir="false" />
@@ -277,7 +281,7 @@
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/VoyageReportOffHireItem.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/VoyageReportOffHireItem.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/Warehouse.php" beforeDir="false" afterPath="$PROJECT_DIR$/../inextia-sdk-php/src/Model/Warehouse.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Client.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Client.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -315,6 +319,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl$\Ubuntu-20.04\home\rkgrep\Code\eqcentric\sdk\swagger-sdk-php\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -323,7 +332,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1614582758741</updated>
-      <workItem from="1614582760096" duration="3030000" />
+      <workItem from="1614582760096" duration="3321000" />
     </task>
     <servers />
   </component>
