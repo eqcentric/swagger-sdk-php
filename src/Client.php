@@ -2,7 +2,6 @@
 
 namespace Makini\Swagger;
 
-use InvalidArgumentException;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\Client as Guzzle;
 
@@ -11,18 +10,24 @@ use GuzzleHttp\Client as Guzzle;
  *
  * @package Makini\Swagger
  */
-abstract class Client {
-
-    protected $username;
+abstract class Client
+{
+    /**
+     * @var Guzzle
+     */
     protected $client;
+
+    /**
+     * @var Configuration
+     */
     protected $config;
 
-    public function __construct(string $uri, array $options = [])
+    public function __construct(string $uri, array $options = [], ?Configuration $config = null)
     {
         $uri = new Uri($uri);
         $uri->withUserInfo(null);
 
-        $this->config = new Configuration();
+        $this->config = $config ?? new Configuration();
         $this->config->setHost($uri->getScheme().'://'.$uri->getAuthority().'/api');
 
         if (!empty($options['user-agent'])) {
