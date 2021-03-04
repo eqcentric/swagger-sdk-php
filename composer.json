@@ -3,7 +3,7 @@
     "description": "Makini Swagger SDK for PHP",
     "type": "library",
     "license": "MIT",
-    "version": "0.2.2",
+    "version": "0.2.3",
     "authors": [
         {
             "name": "Roman Kinyakin",

@@ -25,7 +25,6 @@ abstract class Client
     public function __construct(string $uri, array $options = [], ?Configuration $config = null)
     {
         $uri = new Uri($uri);
-        $uri->withUserInfo(null);
 
         $this->config = $config ?? new Configuration();
         $this->config->setHost($uri->getScheme().'://'.$uri->getAuthority().'/api');
